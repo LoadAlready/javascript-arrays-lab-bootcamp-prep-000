@@ -21,3 +21,4 @@ function appendKitten(Broom){
   newKittenArray.push(Broom);
   return newKittenArray;
 }
+function prependKitten()
