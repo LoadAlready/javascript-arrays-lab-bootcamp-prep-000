@@ -26,3 +26,7 @@ function prependKitten(Arnold){
   newKittenArray.unshift(Arnold);
   return newKittenArray;
 }
+function removeLastKitten(){
+  var newKittenArray  = [...kittens]
+  
+}
