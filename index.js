@@ -21,4 +21,8 @@ function appendKitten(Broom){
   newKittenArray.push(Broom);
   return newKittenArray;
 }
-//function prependKitten(Arnold)
+function prependKitten(Arnold){
+  var newKittenArray = [...kittens];
+  newKittenArray.pop(Arnold);
+  return newKittenArray;
+}
