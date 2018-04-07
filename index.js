@@ -18,6 +18,6 @@ function destructivelyRemoveFirstKitten(){
 }
 
 function appendKitten(Broom){
-  appendBroom()
+  kittens.append("Broom")
   return kittens
 }
