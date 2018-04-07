@@ -23,6 +23,6 @@ function appendKitten(Broom){
 }
 function prependKitten(Arnold){
   var newKittenArray = [...kittens];
-  newKittenArray.pop(Arnold);
+  newKittenArray.unshift(Arnold);
   return newKittenArray;
 }
